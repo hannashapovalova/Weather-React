@@ -17,7 +17,37 @@ root.render(
       
     
      
-
+      <div className="Forecast">
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <h3>Fri</h3>
+              <p>Icon</p>
+              <p>24&#8451;</p>
+            </div>
+            <div className="col">
+              <h3>Sat</h3>
+              <p>Icon</p>
+              <p>24&#8451;</p>
+            </div>
+            <div className="col">
+              <h3>Sun</h3>
+              <p>Icon</p>
+              <p>24&#8451;</p>
+            </div>
+            <div className="col">
+              <h3>Mon</h3>
+              <p>Icon</p>
+              <p>24&#8451;</p>
+            </div>
+            <div className="col">
+              <h3>Tue</h3>
+              <p>Icon</p>
+              <p>24&#8451;</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <p>
