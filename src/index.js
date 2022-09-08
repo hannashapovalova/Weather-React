@@ -15,8 +15,25 @@ root.render(
       <a href="#" target="_blank" rel="nofollow">San Francisco</a>
     <SearchEngine />
       
-    
-     
+      <button type="button" className="btn btn-success">Current</button>
+      <div>
+        <h1>Lisbon</h1>
+        <h2>Monday 12:16</h2>
+        <h3>Clouds</h3>
+      </div>
+      <div>
+        <div className="container">
+          <div className="row">
+            <div className="col">
+              <p>ICON</p>
+            </div>
+            <div className="col">
+              <p>Precipitation: 70%</p>
+              <p>Wind: 5km/h</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="Forecast">
         <div className="container">
           <div className="row">
