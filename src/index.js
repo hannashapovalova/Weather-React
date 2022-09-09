@@ -9,10 +9,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <main>
-      <a href="#" target="_blank" rel="nofollow">Kyiv</a>
-      <a href="#" target="_blank" rel="nofollow">Lisbon</a>
-      <a href="#" target="_blank" rel="nofollow">Paris</a>
-      <a href="#" target="_blank" rel="nofollow">San Francisco</a>
+      <a className="NavigationCities" href="#" target="_blank" rel="nofollow">Kyiv</a>
+      <a className="NavigationCities" href="#" target="_blank" rel="nofollow">Lisbon</a>
+      <a className="NavigationCities" href="#" target="_blank" rel="nofollow">Paris</a>
+      <a className="NavigationCities" href="#" target="_blank" rel="nofollow">San Francisco</a>
     <SearchEngine />
       
       <button type="button" className="btn btn-success">Current</button>
