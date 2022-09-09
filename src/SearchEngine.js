@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 
 import './App.css';
+import './index.css';
 
 function SearchEngine() {
   let [city, setCity] = useState(" ");
@@ -32,9 +33,9 @@ function SearchEngine() {
   }
 
   let form = (
-    <form onSubmit={handSubmit}>
-      <input type="search" onChange={updateCity}></input>
-      <input type="submit" value="Search"></input>
+    <form className="SearchForm" onSubmit={handSubmit}>
+      <input type="search" placeholder="Enter a city" className="SearchInput" onChange={updateCity}></input>
+      <input type="submit" value="Search" className="SeacrhButton"></input>
     </form>
   );
 

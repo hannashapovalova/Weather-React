@@ -13,9 +13,14 @@ root.render(
       <a className="NavigationCities" href="#" target="_blank" rel="nofollow">Lisbon</a>
       <a className="NavigationCities" href="#" target="_blank" rel="nofollow">Paris</a>
       <a className="NavigationCities" href="#" target="_blank" rel="nofollow">San Francisco</a>
-    <SearchEngine />
-      
+    
+      <form className="SearchForm">
+        <input type="search" placeholder="Enter a city" className="SearchInput"></input>
+        <input type="submit" value="Search" className="SeacrhButton"></input>
       <button type="button" className="CurrentWeatherButton">Current</button>
+      </form>
+      
+
       <div className="container CurrentWeatherContainer">
 
         <div className="row">
@@ -71,7 +76,7 @@ root.render(
     <footer>
       <p>
         This project was coded by 
-        <a href="#" target="_blank" rel="nofollow"> Anna Shapovalova</a>
+        <a href="#" target="_blank" rel="nofollow"> Anna Shapovalova </a>
         and is
         <a href="#" target="_blank" rel="nofollow"> open-sourced on GitHub </a>
         and hosted on 
