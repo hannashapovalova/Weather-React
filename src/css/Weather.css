@@ -1,0 +1,19 @@
+/* Weather */
+.CurrentCity {
+    color: #878787;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.CurrentWeather {
+    color: #878787;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.CurrentWeatherContainer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
