@@ -15,7 +15,7 @@ root.render(
       <a className="NavigationCities" href="#" target="_blank" rel="nofollow">San Francisco</a>
     <SearchEngine />
       
-      <button type="button" className="btn btn-success">Current</button>
+      <button type="button" className="CurrentWeatherButton">Current</button>
       <div className="container CurrentWeatherContainer">
 
         <div className="row">
@@ -27,7 +27,7 @@ root.render(
       
         <div className="row">
           <div className="col">
-            <p>ICON</p>
+            <p></p>
           </div>
           <div className="col">
             <p className="CurrentWeather">Precipitation: 70%</p>
@@ -41,27 +41,27 @@ root.render(
           <div className="row">
             <div className="col">
               <h3 className="ForecastDayOfWeek">Fri</h3>
-              <p>Icon</p>
+              <p></p>
               <p className="ForecastTemperature">24&#8451;</p>
             </div>
             <div className="col">
               <h3 className="ForecastDayOfWeek">Sat</h3>
-              <p>Icon</p>
+              <p></p>
               <p className="ForecastTemperature">24&#8451;</p>
             </div>
             <div className="col">
               <h3 className="ForecastDayOfWeek">Sun</h3>
-              <p>Icon</p>
+              <p></p>
               <p className="ForecastTemperature">24&#8451;</p>
             </div>
             <div className="col">
               <h3 className="ForecastDayOfWeek">Mon</h3>
-              <p>Icon</p>
+              <p></p>
               <p className="ForecastTemperature">24&#8451;</p>
             </div>
             <div className="col">
               <h3 className="ForecastDayOfWeek">Tue</h3>
-              <p>Icon</p>
+              <p></p>
               <p className="ForecastTemperature">24&#8451;</p>
             </div>
           </div>
